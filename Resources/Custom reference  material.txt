@@ -1,4 +1,10 @@
 verify your Git remote configuration by running: git remote -v
 you can add REMOTE with the following command: git remote add origin NEW_REMOTE_URL
+Changing REMOTE: git remote set-url origin new_remote_url
+removing remote: git remote remove "remote name"
+
+[Git collaboration](https://learn.microsoft.com/en-us/training/modules/collaborate-with-git/)
+
 Fetch the latest changes from the GitHub repository: git fetch origin
 To make your local branch identical to the remote branch, you can run: git reset --hard origin/main
+
