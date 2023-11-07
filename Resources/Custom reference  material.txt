@@ -8,3 +8,5 @@ removing remote: git remote remove "remote name"
 Fetch the latest changes from the GitHub repository: git fetch origin
 To make your local branch identical to the remote branch, you can run: git reset --hard origin/main
 
+Set the name of the default branch for the new repo:
+        git symbolic-ref HEAD refs/heads/main
